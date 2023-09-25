@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 30px;
+    color: #f8f8f8;
+}
+
+.video-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    margin: 0 -10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    overflow-x: hidden;
+    
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.video-container iframe {
+    margin: 5px;
+    width: 100%;
+    height: 183px;
+    background-position: center;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    font-size: 14px; 
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 2; 
+}
+
+    .video1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: center;
+        margin: 10px;
+        width: 50%;
+    }
+    .video2-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin: 10px;
+        width: 50%;
+    }
+
+    .h41 {
+        font-family: Arial, sans-serif;
+        margin: 5px;
+        font-size: 14px; 
+    }
+
+    .video1-container iframe {
+        margin: 5px;    
+        height: 183px;
+        background-position: center;
+    }
+
+    
+    .video2-container iframe {
+        margin: 5px;    
+        height: 183px;
+        background-position: center;
+    }
+
+    .h41 {
+        font-family: Arial, sans-serif;
+        margin: -4px;
+        font-size: 14px; 
+        text-align: center;
+    }
+
+    h2 {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 24px;
+        line-height: 2; 
+    }
